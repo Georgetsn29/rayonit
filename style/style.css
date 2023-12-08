@@ -47,6 +47,11 @@ body {
     font-weight: 500;
     font-size: 15px;
     color: #1e1e1e;
+    transition: all .3s;
+}
+
+.header-nav ul li a:hover {
+    color: #f7b006;
 }
 
 select {
@@ -56,6 +61,11 @@ select {
     font-weight: 500;
     font-size: 15px;
     appearance: none;
+    transition: all .3s;
+}
+
+select:hover {
+    color: #f7b006;
 }
 
 select {
@@ -91,9 +101,15 @@ select {
     font-size: 24px;
     font-weight: 500;
     background-color: #f7b006;
+    border: 1px solid #f7b006;
     padding-block: 15px 14px;
     padding-inline: 34px 23px;
     border-radius: 2px;
+    transition: all .3s;
+}
+
+.inovation-btn:hover {
+    background-color: transparent;
 }
 
 .article {
@@ -404,8 +420,14 @@ article {
     padding-block: 15px 13px;
     padding-inline: 30px 26px;
     background-color: #FFFfff;
+    border: 1px solid #FFFfff;
     height: 52px;
     border-radius: 2px;    
+    transition: all .3s;
+}
+
+.hmain-btn:hover {
+    background-color: transparent;
 }
 
 .contact-us {
@@ -483,10 +505,15 @@ textarea::placeholder {
     letter-spacing: -2.5%;
     margin: 44px auto 0;
     grid-column-start: span 2;
+    transition: all .3s;
+}
+
+.form-btn:hover {
+    background-color: transparent;
 }
 
 .main-footer {
-    margin: 0 auto 38px;
+    margin: 67px auto 38px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -543,7 +570,13 @@ textarea::placeholder {
     color: #1e1e1e;
     font-family: roboto;
     font-weight: 500;
+    transition: all .3s;
 }
+
+.mfooter-nav ul li a:hover {
+    color: #f7b006;
+}
+
 
 
 
